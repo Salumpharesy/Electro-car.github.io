@@ -1,0 +1,62 @@
+body{
+	background-image: url(https://wallpaper.dog/large/20538692.jpg);
+	height: 700px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  font-family: montserrat;
+}
+div{
+	display: flex;
+	align-items: center;
+	color: white;
+	flex-direction: column;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	background-color: lightblue;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	height: 70px;
+}
+ 
+ button{
+ 	position: absolute;
+ 	top: 22rem;
+ 	border-radius: 10px;
+ 	background-color: black;
+ 	color: white;
+ 	border-color: black;
+ }
+
+ button:hover{
+ 	transform: scale(1.1);
+ 	background-color: lightblue;
+ 	border-color: lightblue;
+ 	color: black;
+ 	box-shadow: lightblue;
+ }
+
+h1{
+	display: flex;
+	position: relative;
+	top: 0;
+	font-size: 3rem;
+	text-shadow: lightblue;
+	color: white;
+	font-weight: bold;
+	
+
+}
+

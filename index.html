@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script>
+		function myFunction(){
+			var age=prompt("Enter your age");
+			if(Number(age)<18){
+				alert ("Sorry you are too young to Drive");
+			}else if(Number(age)>18){
+				alert ("Welcome, Engine is Wsitching on");
+			}else if(Number(age)===18){
+				alert ("Congratulation on your first year of Driving");
+			}else{
+				alert ("Please enter your age to continue");
+			}
+		}
+	</script>
+	
+	<div class="Container">
+		<div class="row">
+			<nav>
+	<h1>Welcome to Electro Car Services</h1>
+</nav>
+	<div class="col-12">
+	<button onclick='myFunction()'>Click me to swich on the Engine</button>
+</div>
+</div>
+</div>
+</body>
+</html>
